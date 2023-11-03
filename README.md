@@ -70,6 +70,27 @@ cv2.imshow("Color Image",image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+
+#  Image data types and their range
+It is necessary to know data type range. 
+```bash
+Data type    Range
+
+uint8        0 to 255
+
+uint16       0 to 65535
+
+uint32       0 to 232 - 1
+
+float       -1 to 1 or 0 to 1
+
+int8        -128 to 127
+
+int16       -32768 to 32767
+
+int32       -231 to 231 - 1
+```
 Notebook : [Here](https://github.com/pritomsh/image-processing/blob/master/Read%20Image%20using%20Python.ipynb)
 
 
